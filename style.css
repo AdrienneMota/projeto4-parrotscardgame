@@ -1,5 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
 body, html{
     height: 100%;
+    background-color: #EEF9BF;
+}
+
+.container{
+    background-color: #EEF9BF;
 }
 
 ul{
@@ -9,20 +18,28 @@ ul{
     list-style-type: none;
 }
 
-li{
-    margin-right: 50px;
-}
-
 .card{
-    background-color: purple;
+    background-color: #A7E9AF;
     margin: 15px;
     height: 146px;
     width: 117px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #99CEA8;
 }
 
 img{
     height: 100px;
     width: 100px;
     border-radius: 0px;     
+}
+
+.esconder{
+    display: none;
+}
+
+.back{
+    display: none;
 }
